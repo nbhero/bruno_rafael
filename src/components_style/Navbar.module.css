@@ -1,0 +1,11 @@
+.menu{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #0a8871;
+}
+.menu_list{
+    list-style-type: none;
+}
+.menu_list_items{
+    text-decoration: none;
+    padding: 5px;
+}
