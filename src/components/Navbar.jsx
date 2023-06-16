@@ -4,6 +4,7 @@ import styles from '../components_style/Navbar.module.css'
 function Navbar() {
   return (
     <nav className={styles.menu}>
+      <header className={styles.header}>DEV OPS</header>
         <ul>
             <li className={styles.menu_list}>
                 <a href='#' className={styles.menu_list_items}>Home</a>
