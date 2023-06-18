@@ -1,6 +1,7 @@
 .menu{
     font-family: 'Courier New', Courier, monospace;
     background-color: #0a8871;
+    position: relative;
 }
 .menu_list{
     display: block;
@@ -10,6 +11,7 @@
 }
 .menu_list_items{
     text-decoration: none;
+    font-weight: bold;
     padding: 5px;
     color: #fff;
 }
@@ -17,11 +19,20 @@
     color: bisque;
 }
 .header{
+    position: absolute;
+    text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    user-select: none;
     position: fixed;
     text-align: start;
     padding-top: 20px;
     padding-left: 25px;
     color: bisque;
     font-size: 25px;
+}
+@media screen and (max-width: 768px) {
+    .menu{
+        display: block;
+        min-width: fit-content;
+    }
 }
