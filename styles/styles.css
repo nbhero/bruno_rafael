@@ -5,16 +5,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto+Slab&display=swap');
 /* font-family: 'Oswald', sans-serif;
 font-family: 'Roboto Slab', serif; */
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Quicksand:wght@300&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins:wght@200&family=Quicksand:wght@300&family=Roboto+Slab&display=swap');
 /* font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
 font-family: 'Quicksand', sans-serif;
 font-family: 'Roboto Slab', serif; */
 :root {
     --heading-color: #075FE4;
     --link-hover: #075FE4;
     --paragraph-text: white;
-    --paragraph-heading: 'Roboto Slab', serif;
-    --paragraph-font: 'Quicksand', sans-serif;
+    --paragraph-heading: 'Poppins', sans-serif;
+    --paragraph-font: 'Poppins', sans-serif;
 
 }
 /* Header Config */
@@ -60,6 +61,7 @@ font-family: 'Roboto Slab', serif; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: repeat(5, 150px);
+    font-family: var(--paragraph-heading);
 }
 .presentation {
     grid-row: 2/4;
