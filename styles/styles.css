@@ -31,15 +31,23 @@ font-family: 'Roboto Slab', serif; */
     align-self: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    font-size: 22px;
+    font-size: 30px;
+    font-weight: bold;
     color: white;
     user-select: none;
 }
-.header_logo img {
+.header_logo i {
     display: flex;
     justify-self: center;
     align-self: center;
+    color: #075FE4;
+    font-weight: bold;
+    margin-left: 50px;
+}
+.header_logo img {
     width: 50px;
+    border-radius: 6px;
+    align-self: center;
 }
 .nav_links {
     grid-column: 4/6;
@@ -47,7 +55,7 @@ font-family: 'Roboto Slab', serif; */
     align-self: center;
 }
 .nav_links a {
-    padding: 20px;
+    margin: 20px;
     font-size: 20px;
     text-decoration: none;
     color: white;
@@ -116,9 +124,11 @@ font-family: 'Roboto Slab', serif; */
 }
 .sub_content1 p {
     color: var(--paragraph-text);
+    font-size: 14px;
 }
 .sub_content2 p {
     color: var(--paragraph-text);
+    font-size: 14px;
 }
 .sub_content1 a {
     color: white;
@@ -141,6 +151,7 @@ font-family: 'Roboto Slab', serif; */
     grid-column: 3/4;
     grid-row: 4/5;
     align-self: center;
+    
 }
 .footer p {
     color: white;
@@ -149,5 +160,5 @@ font-family: 'Roboto Slab', serif; */
 .footer img {
     background-color: white;
     border-radius: 4px;
-    width: 30px;
+    width: 30px;   
 }
